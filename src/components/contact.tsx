@@ -9,7 +9,7 @@ export function Contact() {
         </h2>
         
         <p className="text-lg mb-8 font-sans font-bold">
-            Ready to start a new game? Let's build something awesome together.
+            Ready to start a new game? Let&apos;s build something awesome together.
         </p>
 
         <div className="bg-white p-8 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">

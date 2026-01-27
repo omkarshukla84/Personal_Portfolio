@@ -1,4 +1,4 @@
-import { MapPin, Briefcase, Youtube, Trophy, Linkedin, Mail, Github, FileText, Download, Code } from "lucide-react";
+import { MapPin, Briefcase, Trophy, Linkedin, Mail, Github, Download, Code } from "lucide-react";
 import Link from "next/link";
 import { InfiniteMarquee } from "@/components/ui/infinite-marquee";
 import { VibeCard } from "@/components/vibe-card";

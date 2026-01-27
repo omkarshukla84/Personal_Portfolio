@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, ChevronLeft, ChevronRight, Trophy } from "lucide-react";
+import { ExternalLink, Github, Trophy } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 

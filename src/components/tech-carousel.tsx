@@ -6,7 +6,7 @@ import { LogoCarousel } from "@/components/ui/logo-carousel";
 
 // User provided logos (PNGs)
 // Path: public/logos/
-const HTMLIcon = (props: ComponentProps<typeof Image>) => (
+const HTMLIcon = (props: Omit<ComponentProps<typeof Image>, "src" | "alt">) => (
   <Image
     src="/logos/HTML5.png"
     alt="HTML5"
@@ -17,7 +17,7 @@ const HTMLIcon = (props: ComponentProps<typeof Image>) => (
   />
 );
 
-const CSSIcon = (props: ComponentProps<typeof Image>) => (
+const CSSIcon = (props: Omit<ComponentProps<typeof Image>, "src" | "alt">) => (
   <Image
     src="/logos/CSS3.png"
     alt="CSS3"
@@ -28,7 +28,7 @@ const CSSIcon = (props: ComponentProps<typeof Image>) => (
   />
 );
 
-const JavaScriptIcon = (props: ComponentProps<typeof Image>) => (
+const JavaScriptIcon = (props: Omit<ComponentProps<typeof Image>, "src" | "alt">) => (
   <Image
     src="/logos/JavaScript.png"
     alt="JavaScript"
@@ -39,7 +39,7 @@ const JavaScriptIcon = (props: ComponentProps<typeof Image>) => (
   />
 );
 
-const ReactIcon = (props: ComponentProps<typeof Image>) => (
+const ReactIcon = (props: Omit<ComponentProps<typeof Image>, "src" | "alt">) => (
   <Image
     src="/logos/React.png"
     alt="React"
@@ -50,7 +50,7 @@ const ReactIcon = (props: ComponentProps<typeof Image>) => (
   />
 );
 
-const NodeIcon = (props: ComponentProps<typeof Image>) => (
+const NodeIcon = (props: Omit<ComponentProps<typeof Image>, "src" | "alt">) => (
   <Image
     src="/logos/Node.js.png"
     alt="Node.js"
@@ -61,7 +61,7 @@ const NodeIcon = (props: ComponentProps<typeof Image>) => (
   />
 );
 
-const PythonIcon = (props: ComponentProps<typeof Image>) => (
+const PythonIcon = (props: Omit<ComponentProps<typeof Image>, "src" | "alt">) => (
   <Image
     src="/logos/Python.png"
     alt="Python"
@@ -72,7 +72,7 @@ const PythonIcon = (props: ComponentProps<typeof Image>) => (
   />
 );
 
-const TailwindIcon = (props: ComponentProps<typeof Image>) => (
+const TailwindIcon = (props: Omit<ComponentProps<typeof Image>, "src" | "alt">) => (
   <Image
     src="/logos/Tailwind CSS.png"
     alt="Tailwind CSS"
@@ -83,7 +83,7 @@ const TailwindIcon = (props: ComponentProps<typeof Image>) => (
   />
 );
 
-const TypeScriptIcon = (props: ComponentProps<typeof Image>) => (
+const TypeScriptIcon = (props: Omit<ComponentProps<typeof Image>, "src" | "alt">) => (
   <Image
     src="/logos/TypeScript.png"
     alt="TypeScript"

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Coffee, Code, Zap, Rocket, Brain, Music, Bug } from "lucide-react";
+import { Coffee, Code, Zap, Rocket, Bug } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const vibes = [

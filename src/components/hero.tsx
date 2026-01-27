@@ -10,6 +10,7 @@ export function Hero() {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsMounted(true);
   }, []);
 
@@ -18,11 +19,11 @@ export function Hero() {
       
       <div className="flex-1 space-y-8">
         <div className="inline-block bg-accent px-4 py-2 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transform -rotate-2">
-          <span className="font-bold text-sm md:text-base">HEY THERE! IT'S ME!</span>
+          <span className="font-bold text-sm md:text-base">HEY THERE! IT&apos;S ME!</span>
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight tracking-tighter text-black">
-          I'M <span className="text-black">OMKAR</span>.
+          I&apos;M <span className="text-black">OMKAR</span>.
           <br />
           <span className="text-green-600">BUILDER</span> & <span className="text-blue-600">CREATOR</span>.
         </h1>

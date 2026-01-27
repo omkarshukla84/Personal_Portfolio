@@ -5,7 +5,6 @@ import React, {
   useEffect,
   useMemo,
   useState,
-  type SVGProps,
 } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 
@@ -103,6 +102,7 @@ const LogoColumn: React.FC<LogoColumnProps> = React.memo(
     )
   }
 )
+LogoColumn.displayName = "LogoColumn"
 
 interface LogoCarouselProps {
   columnCount?: number
@@ -123,8 +123,7 @@ export function LogoCarousel({ columnCount = 2, logos }: LogoCarouselProps) {
   }, [updateTime])
 
   useEffect(() => {
-    const distributedLogos = distributeLogos(logos, columnCount)
-    setLogoSets(distributedLogos)
+    setLogoSets(distributeLogos(logos, columnCount))
   }, [logos, columnCount])
 
   return (
