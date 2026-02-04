@@ -28,6 +28,17 @@ const sihProject = {
 
 const otherProjects = [
   {
+    title: "AnonChat",
+    description: "A privacy-first, real-time, 1-to-1 anonymous chat platform with AI-backed human verification, safety controls, and a Redis-powered matchmaking queue. Features ephemeral chats with zero server-side history and Redis-backed horizontal scaling.",
+    tags: ["Next.js", "Node.js", "Socket.io", "Redis", "Python"],
+    links: {
+      demo: "https://klymo-client-cnxt.vercel.app/",
+      repo: "https://github.com/omkarshukla84/anonchat",
+    },
+    images: ["/projects/anonchat/preview.png"],
+    year: "2025"
+  },
+  {
     title: "Stackly",
     description: "A decision-driven team workspace that forces discussions to end with clear, documented decisions. Features a decision-first workflow where tasks only exist as outcomes of decisions, preserving context and preventing repeated debates.",
     tags: ["Next.js", "React", "Tailwind CSS", "Local Storage"],
