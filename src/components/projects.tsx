@@ -60,17 +60,6 @@ const otherProjects = [
     images: ["/projects/sigmalink/preview.png"],
     year: "2025"
   },
-  {
-    title: "Project Gamma",
-    description: "AI-powered personal assistant chatbot. simpler than ChatGPT but specialized for scheduling and task management.",
-    tags: ["Python", "FastAPI", "OpenAI", "Docker"],
-    links: {
-      demo: "#",
-      repo: "#",
-    },
-    images: ["/project3.png"],
-    year: "2023"
-  },
 ];
 
 const Slideshow = ({ images, title }: { images: string[], title: string }) => {
