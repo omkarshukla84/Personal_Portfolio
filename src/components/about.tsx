@@ -74,11 +74,11 @@ export function About() {
         </div>
         
         {/* Resume Card */}
-         <div className="bg-black text-white border-4 border-black p-6 shadow-[8px_8px_0px_0px_#888] flex flex-col justify-center items-center text-center hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0px_0px_#888] transition-all cursor-pointer group">
+         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-black text-white border-4 border-black p-6 shadow-[8px_8px_0px_0px_#888] flex flex-col justify-center items-center text-center hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0px_0px_#888] transition-all cursor-pointer group">
             <Download className="w-12 h-12 mb-4 group-hover:scale-110 transition-transform" />
             <h3 className="font-bold text-xl">Get Resume</h3>
             <p className="text-xs text-gray-400 font-sans mt-1">PDF Download</p>
-        </div>
+        </a>
 
       </div>
     </section>
